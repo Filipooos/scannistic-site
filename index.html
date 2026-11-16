@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scannistic</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --ink: #1c1c1e;
+        --muted: #6e6e73;
+        --bg: #f5f5f7;
+        --link: #0071e3;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --ink: #f5f5f7;
+          --muted: #a1a1a6;
+          --bg: #111113;
+          --link: #2997ff;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font: 17px/1.55 -apple-system, system-ui, sans-serif;
+      }
+      main {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 48px 16px;
+      }
+      h1 {
+        font-size: 34px;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 20px;
+        margin: 32px 0 8px;
+      }
+      p {
+        color: var(--muted);
+      }
+      a {
+        color: var(--link);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Scannistic</h1>
+      <p>Scan paper straight into a folder, as a searchable PDF.</p>
+
+      <h2>Support</h2>
+      <p>Questions, a scan that came out wrong, an idea:
+        <a href="mailto:kokpit250@gmail.com">kokpit250@gmail.com</a>.</p>
+
+      <h2>Where do my scans go?</h2>
+      <p>Into the folder you choose when Scannistic first opens — in iCloud Drive, on the iPhone, or
+        any service that shows up in the Files app. Change it any time in Settings. Categories can
+        each have a folder of their own.</p>
+
+      <h2>Can I search inside a scan?</h2>
+      <p>Yes. The text on every page is read on your iPhone and hidden under the picture, so the
+        PDF can be searched and its text selected and copied.</p>
+
+      <h2>The edges of the page were found wrong</h2>
+      <p>Drag the four corners on the Adjust crop screen — the magnifier shows exactly where each
+        one sits. Pages can be re-cropped later from All Pages.</p>
+
+      <h2>Privacy</h2>
+      <p>Scannistic collects no data at all. <a href="privacy.html">Privacy policy</a>.</p>
+    </main>
+  </body>
+</html>

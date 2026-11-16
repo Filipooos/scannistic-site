@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scannistic Privacy</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --ink: #1c1c1e;
+        --muted: #6e6e73;
+        --bg: #f5f5f7;
+        --link: #0071e3;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --ink: #f5f5f7;
+          --muted: #a1a1a6;
+          --bg: #111113;
+          --link: #2997ff;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font: 17px/1.55 -apple-system, system-ui, sans-serif;
+      }
+      main {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 48px 16px;
+      }
+      h1 {
+        font-size: 30px;
+        margin: 0 0 8px;
+      }
+      h2 {
+        font-size: 20px;
+        margin: 32px 0 8px;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      a {
+        color: var(--link);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy policy</h1>
+      <p>Last updated 16 November 2026. Scannistic is made by Filip Waikiki, Prague, Czechia.</p>
+      <p>
+        <strong>Scannistic does not collect any data.</strong> There is no account, no server, no
+        advertising, no analytics and no tracking. Nothing you scan ever reaches the developer.
+      </p>
+      <h2>The camera</h2>
+      <p>Scannistic uses the camera only to photograph the document in front of it. Finding the
+        page, straightening it and reading its text all happen on your iPhone, using Apple's
+        on-device frameworks.</p>
+      <h2>Your scans</h2>
+      <ul>
+        <li>While you are scanning, the pages are kept inside the app on your iPhone, encrypted by
+          iOS whenever the phone is locked and excluded from backups. They are deleted as soon as
+          the scan is saved.</li>
+        <li>A saved scan is a PDF in the folder you chose. If that folder is in iCloud Drive or
+          another cloud service, the file is stored by that service under its own terms — the same
+          as any other file you put there.</li>
+        <li>Email and Share hand the PDF to the app you pick (Mail, Messages, AirDrop…). Scannistic
+          sends nothing by itself.</li>
+      </ul>
+      <h2>Settings</h2>
+      <p>Your preferences — the folder, the file name, the categories, an address to put in the To
+        field — are kept on your iPhone and nowhere else.</p>
+      <h2>Deleting your data</h2>
+      <p>Delete the app. Everything Scannistic keeps goes with it; the PDFs you saved stay in your
+        folder until you delete them there.</p>
+      <h2>Contact</h2>
+      <p><a href="mailto:kokpit250@gmail.com">kokpit250@gmail.com</a></p>
+    </main>
+  </body>
+</html>
